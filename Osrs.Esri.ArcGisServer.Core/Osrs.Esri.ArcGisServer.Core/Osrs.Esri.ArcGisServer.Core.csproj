@@ -40,7 +40,18 @@
     <Reference Include="System.Net.Http" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\AgsAdminClient.cs" />
+    <Compile Include="Admin\Machine.cs" />
+    <Compile Include="Admin\Machines.cs" />
+    <Compile Include="Admin\Service.cs" />
+    <Compile Include="Admin\Services.cs" />
+    <Compile Include="AgsServer.cs" />
+    <Compile Include="Catalog\AgsRestClient.cs" />
+    <Compile Include="Catalog\Service.cs" />
+    <Compile Include="Catalog\ServiceFootprints.cs" />
+    <Compile Include="Catalog\Services.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceType.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
